@@ -1,0 +1,62 @@
+body {
+    font-family: sans-serif;
+    background-color: #e5e5e5;
+    overflow: hidden;
+    display: flex;
+    height: 100vh;
+  }
+
+  .apps {
+    background-color: #fff;
+    width: 20rem;
+    height: 30rem;
+    border: 0.3rem solid rgba(59, 53, 53, 0.1);
+    border-radius: 8px;
+    padding: 1rem;
+    margin-top: 7rem;
+    margin-left: 300%;
+  }
+
+  #addNew {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(166, 167, 166, 0.35);
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .fa-plus {
+    background-color: #ffffff;
+    padding: 3px;
+    border-radius: 3px;
+  }
+
+  #msg {
+    color: red;
+  }
+
+  #tasks {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+  
+  #tasks div {
+    border: 3px solid #989997e8;
+    background-color: #ebeceae1;
+    border-radius: 6px;
+    padding: 5px;
+    display: grid;
+    gap: 4px;
+  }
+
+  #tasks div .options {
+    justify-self: center;
+    display: flex;
+    gap: 20px;
+  }
+  
+  #tasks div .options i {
+    cursor: pointer;
+  }
