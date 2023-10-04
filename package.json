@@ -1,0 +1,16 @@
+{
+  "name": "pomodoro",
+  "version": "1.0.0",
+  "description": "A pomodoro timer app built with JavaScript",
+  "main": "main.js",
+  "scripts": {
+    "start": "npx browser-sync start -sw"
+  },
+  "author": "Agustina Fernandez",
+  "license": "ISC",
+  "bugs": {
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.12"
+  }
+}
