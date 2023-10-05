@@ -1,7 +1,5 @@
 ## TIME MANAGEMENT PROJECT by Agustina Fernández
 
-# Video Demo: https://youtu.be/tAmJE-hKvHg 
-
 # Deploy: https://agustinafernandez01.github.io/Time-management-Project/
 
 # Description: 
