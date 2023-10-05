@@ -151,7 +151,8 @@ document.addEventListener("DOMContentLoaded", () => {
   switchMode("pomodoro");
 });
 
-handleReset = () => {
+handleReset = () => { 
+  buttonSound.play();
   stopTimer(); 
 
   timer.sessions = 0;
