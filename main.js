@@ -151,12 +151,25 @@ document.addEventListener("DOMContentLoaded", () => {
   switchMode("pomodoro");
 });
 
+handleReset = () => {
+  stopTimer(); 
+
+  timer.sessions = 0;
+  switchMode("pomodoro");
+
+  updateClock();
+
+};
+
 const buttonSound = new Audio("button-sound.mp3");
 const mainButton = document.getElementById("js-btn");
 mainButton.addEventListener("click", handlerButton);
 
 const modeButtons = document.querySelector("#js-mode-buttons");
 modeButtons.addEventListener("click", handlerMode);
+
+const resetButton = document.getElementById("js-reset-button");
+resetButton.addEventListener("click", handleReset);
 
 
 // To Do List
